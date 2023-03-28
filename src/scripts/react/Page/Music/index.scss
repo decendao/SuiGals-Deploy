@@ -1,0 +1,163 @@
+@keyframes bounce {
+  10% {
+    transform: scaleY(.25)
+  }
+
+  30% {
+    transform: scaleY(.83)
+  }
+
+  60% {
+    transform: scaleY(.42)
+  }
+
+  80% {
+    transform: scaleY(.625)
+  }
+
+  to {
+    transform: scaleY(.5)
+  }
+}
+
+#music {
+  $size: 80px;
+  $openActionSize: 40px;
+  width: 450px;
+  position: fixed;
+  bottom: 8%;
+  left: 5%;
+  background-color: white;
+  height: 56px;
+  border-radius: 10px;
+  z-index: 999;
+  box-shadow: 3px 5px 10px -3px rgba(0,0,0,.2);
+  cursor: pointer;
+  display: flex;
+  padding-left: $size;
+  transition: .3s all;
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+  .image {
+    width: $size;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    img {
+      width: 100%;
+      border-radius: 0 0 10px 10px;
+    }
+  }
+  .line-group {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px 15px;
+    .line {
+      background-color: #b58da7;
+      width: 3px;
+      height: 100%;
+      border-radius: 1px;
+      margin: 0 1.5px;
+      transform-origin: bottom;
+      transform: scaleY(.1);
+      transition: all 1s ease;
+    }
+  }
+  .open-action {
+    width: $openActionSize;
+    height: $openActionSize;
+    position: absolute;
+    right: -$openActionSize / 2;
+    top: -$openActionSize / 2;
+    border-radius: 50%;
+    border: 2px solid rgb(235,231,224);
+    background-color: white;
+    transition: .3s all;
+    &:hover {
+      transform: scale(1.1);
+    }
+    .line {
+      $width: 35%;
+      width: $width;
+      height: 2px;
+      border-radius: 1px;
+      background-color: black;
+      position: absolute;
+      top: calc(50% - 1px);
+      left: calc(50% - $width / 2);
+      &:last-child {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  .music-text {
+    width: 150px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      font-weight: 700;
+      font-size: 16px;
+      overflow:hidden; //超出的文本隐藏
+      text-overflow:ellipsis; //溢出用省略号显示
+      white-space:nowrap; //溢出不换行
+    }
+    .subtitle {
+      font-size: 12px;
+      overflow:hidden; //超出的文本隐藏
+      text-overflow:ellipsis; //溢出用省略号显示
+      white-space:nowrap; //溢出不换行
+    }
+  }
+  .actions {
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 56px;
+    height: 100%;
+    margin-right: 15px;
+    >div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        opacity: .8;
+        height: 60%;
+      }
+    }
+  }
+  &.play {
+    .line-group {
+      .line {
+        transform: scaleY(1);
+        animation: bounce 2.2s ease infinite alternate;
+        transition: all 1s ease;
+        &:nth-child(2) {
+          animation-delay: -2.2s;
+        }
+        &:nth-child(3) {
+          animation-delay: -3.7s;
+        }
+      }
+    }
+  }
+  &:not(.open) {
+    width: $size + 50px;
+    .music-text {
+      display: none;
+    }
+  }
+  &.open {
+    .open-action {
+      .line {
+        &:last-child {
+          transform: rotate(0deg);
+        }
+      }
+    }
+  }
+}
