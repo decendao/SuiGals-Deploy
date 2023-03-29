@@ -2,8 +2,8 @@ Sui Native Virtual Idols NFT
 
 
 Introducing "SUIGALS," a groundbreaking virtual idol NFT series, set to become the metaverse ambassadors of the Sui network. 
-As the era of Artificial General Intelligence (AGI) dawns, virtual humans and idols will undergo a transformative shift. Previously, virtual idols were simply human creations with perfect appearances, lacking self-awareness and independent thinking. 
-However, with the rapid evolution of AI, virtual idols will soon possess the ability to create content autonomously, including writing songs, composing music, generating music videos, and hosting live concerts. 
+As the era of Artificial General Intelligence (AGI) dawns, virtual humans and idols will undergo a transformative shift. 
+With the rapid evolution of AI, virtual idols will soon possess the ability to create content autonomously, including writing songs, composing music, generating music videos, and hosting live concerts. 
 SUIGALS will embark on their metaverse careers, releasing music videos, live streaming, and performing concerts. 
 SUIGALS will also appear in various capacities across social media, gaming, and other metaverse projects.
 
