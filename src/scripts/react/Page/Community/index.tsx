@@ -7,12 +7,18 @@ export default function Community() {
   return (
     <div id="community">
       <div className="h1s">
-        <h1>지역 사회</h1>
+    
         <h1>COMMUNITY</h1>
-        <h1>コミュニティ</h1>
+        
       </div>
       <h2>
-        VDOL is the first virtual modeling agency in the metaverse created for NFT entrepreneurs with earnings possibilities of holding NFTs instead of flipping.ties of holding NFTs instead of flipping.
+      We're incredibly grateful for the support from our entire Sui Community! 
+      <br/>
+      <br/>
+      🌐 Together, we'll make SuiGal a sensation, attracting even more web3 and AI enthusiasts to join the vibrant Sui ecosystem. 💫
+      <br/>
+      <br/>
+       Thank you all for being part of this exciting journey!
       </h2>
       <div className="icon-list">
         <a href="" className="icon-item">
@@ -28,89 +34,88 @@ export default function Community() {
           <img src="/img/community/tikok.png" alt=""/>
         </a>
       </div>
-      <h3>Join 32,973 other Blackpink FANs in the Discord!</h3>
+
+      <h3>Join the Amazing SuiGal Community Now!</h3>
+
       <div className="list">
         <div className="item">
-          <img src="/img/community/vivi.png" alt=""/>
+          <img src="/img/community/344.png" alt=""/>
           <div className="title">vivi</div>
         </div>
         <div className="item">
-          <img src="/img/community/odod.png" alt=""/>
+          <img src="/img/community/380.png" alt=""/>
           <div className="title">odod</div>
         </div>
         <div className="item">
-          <img src="/img/community/joe lee.png" alt=""/>
+          <img src="/img/community/35.png" alt=""/>
           <div className="title">joe lee</div>
         </div>
         <div className="item">
-          <img src="/img/community/sam.png" alt=""/>
+          <img src="/img/community/28.png" alt=""/>
           <div className="title">sam</div>
         </div>
         <div className="item">
-          <img src="/img/community/super.png" alt=""/>
+          <img src="/img/community/385.png" alt=""/>
           <div className="title">super</div>
         </div>
         <div className="item">
-          <img src="/img/community/vivi.png" alt=""/>
+          <img src="/img/community/44.png" alt=""/>
           <div className="title">vivi</div>
         </div>
         <div className="item">
-          <img src="/img/community/odod.png" alt=""/>
+          <img src="/img/community/513.png" alt=""/>
           <div className="title">odod</div>
         </div>
         <div className="item">
-          <img src="/img/community/joe lee.png" alt=""/>
+          <img src="/img/community/338.png" alt=""/>
           <div className="title">joe lee</div>
         </div>
         <div className="item">
-          <img src="/img/community/sam.png" alt=""/>
+          <img src="/img/community/344.png" alt=""/>
           <div className="title">sam</div>
         </div>
         <div className="item">
-          <img src="/img/community/super.png" alt=""/>
+          <img src="/img/community/380.png" alt=""/>
           <div className="title">super</div>
         </div>
         <div className="item">
-          <img src="/img/community/vivi.png" alt=""/>
+          <img src="/img/community/35.png" alt=""/>
           <div className="title">vivi</div>
         </div>
         <div className="item">
-          <img src="/img/community/odod.png" alt=""/>
+          <img src="/img/community/28.png" alt=""/>
           <div className="title">odod</div>
         </div>
         <div className="item">
-          <img src="/img/community/joe lee.png" alt=""/>
+          <img src="/img/community/385.png" alt=""/>
           <div className="title">joe lee</div>
         </div>
         <div className="item">
-          <img src="/img/community/sam.png" alt=""/>
+          <img src="/img/community/44.png" alt=""/>
           <div className="title">sam</div>
         </div>
         <div className="item">
-          <img src="/img/community/super.png" alt=""/>
+          <img src="/img/community/513.png" alt=""/>
           <div className="title">super</div>
         </div>
         <div className="item">
-          <img src="/img/community/vivi.png" alt=""/>
+          <img src="/img/community/338.png" alt=""/>
           <div className="title">vivi</div>
         </div>
         <div className="item">
-          <img src="/img/community/odod.png" alt=""/>
+          <img src="/img/community/344.png" alt=""/>
           <div className="title">odod</div>
         </div>
         <div className="item">
-          <img src="/img/community/joe lee.png" alt=""/>
+          <img src="/img/community/380.png" alt=""/>
           <div className="title">joe lee</div>
         </div>
         <div className="item">
-          <img src="/img/community/sam.png" alt=""/>
+          <img src="/img/community/35.png" alt=""/>
           <div className="title">sam</div>
-        </div>
-        <div className="item">
-          <img src="/img/community/super.png" alt=""/>
-          <div className="title">super</div>
         </div>
       </div>
+
       <div className="hd">
         <Swiper
           modules={[Autoplay]}
@@ -127,28 +132,28 @@ export default function Community() {
           }}
         >
           <SwiperSlide>
-            <img src="/img/community/t1.png" alt=""/>
+            <img src="/img/community/344.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t2.png" alt=""/>
+            <img src="/img/community/380.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t3.png" alt=""/>
+            <img src="/img/community/35.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t4.png" alt=""/>
+            <img src="/img/community/28.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t1.png" alt=""/>
+            <img src="/img/community/385.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t2.png" alt=""/>
+            <img src="/img/community/44.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t3.png" alt=""/>
+            <img src="/img/community/513.png" alt=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/img/community/t4.png" alt=""/>
+            <img src="/img/community/338.png" alt=""/>
           </SwiperSlide>
         </Swiper>
       </div>

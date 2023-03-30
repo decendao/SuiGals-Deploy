@@ -32,7 +32,7 @@ export default function Header(props: Props) {
               HOME
             </a>
             <a className="nav-item" href="#about">
-              FAN CLUB NFT
+              NFT
             </a>
             <a className="nav-item" href="#roadmap">
               ROADMAP
@@ -40,7 +40,7 @@ export default function Header(props: Props) {
             <a className="nav-item" href="#team">
               TEAM
             </a>
-            <a className="nav-item" href="#genesis">
+            <a className="nav-item" href="#Concept">
               ART
             </a>
             <a className="nav-item" href="#faq">
@@ -82,8 +82,10 @@ export default function Header(props: Props) {
         </div>
       </div>
       <video id="header-video" src="/video/headervid1.mp4" autoPlay loop muted/>
+
+
       <div className="coming-button" onClick={props.show}>
-        MINT NOW
+      Connect
       </div>
     </div>
   )

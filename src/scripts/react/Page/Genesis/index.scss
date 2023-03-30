@@ -1,97 +1,55 @@
 #Pink_Venom {
-  height: 61.25rem  /* 980/16 */;
+  height: 61.25rem; 
   position: relative;
   background-color: white;
-  padding-left: 3.3125rem  /* 53/16 */;
-  .background-list {
-    inset: 0;
-    position: absolute;
-    z-index: 0;
-    .left-flower, .right-flower {
-      position: absolute;
-      height: 48.75rem  /* 780/16 */;
-      top: calc(50% - (48.75rem  /* 780/16 */ / 2));
-      z-index: 1;
-      &.left-flower {
-        left: 0;
-      }
-      &.right-flower {
-        right: 0;
-      }
-    }
-    .left-box, .right-box {
-      height: 55.0625rem  /* 881/16 */;
-      position: absolute;
-      bottom: 0;
-      &.left-box {
-        width: 54.1875rem  /* 867/16 */;
-        left: 8.75rem  /* 140/16 */;
-      }
-      &.right-box {
-        width: 50.75rem  /* 812/16 */;
-        right: 0;
-      }
-    }
-  }
+  padding-left: 3.3125rem; 
   .list {
     display: flex;
     height: 100%;
     position: relative;
   }
-  .light1, .light2 {
-    position: absolute;
-    pointer-events:none;
-    &.light1 {
-      left: 0;
-      width: 60%;
-    }
-    &.light2 {
-      right: 0;
-      width: 60%;
-    }
-  }
   .pre, .next {
-    width: 3.75rem  /* 60/16 */;
-    height: 3.75rem  /* 60/16 */;
-    top: calc(50% - 1.875rem  /* 30/16 */);
+    width: 3.75rem;
+    height: 3.75rem;
+    top: calc(50% - 1.875rem);
     position: absolute;
     z-index: 999;
     cursor: pointer;
     &.pre {
-      left: 1.875rem  /* 30/16 */;
+      left: 1.875rem;
     }
     &.next {
-      right: 1.875rem  /* 30/16 */;
+      right: 1.875rem;
     }
   }
   .item {
     position: relative;
     z-index: 1;
     margin-top: auto;
-    height: 55.0625rem  /* 881/16 */;
+    height: 55.0625rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     width: 50%;
     img {
-      width: 44.9375rem  /* 719/16 */;
+      width: 44.9375rem;
       height: auto;
     }
     .text {
       position: absolute;
-      right: 2.5rem  /* 40/16 */;
-      top: 2.5rem  /* 40/16 */;
+      right: 2.5rem;
+      top: 2.5rem;
       color: white;
       h1 {
-        letter-spacing: 0.3125rem  /* 5/16 */;
+        letter-spacing: 0.3125rem;
         font-family: din, serif;
-        font-size: 4.125rem  /* 66/16 */;
+        font-size: 4.125rem;
         line-height: 1.4;
         font-weight: 400;
       }
       h2 {
         font-family: din, serif;
-        font-size: 1.125rem  /* 18/16 */;
+        font-size: 1.125rem;
       }
     }
     &.right {
@@ -103,23 +61,23 @@
       .text {
         right: 0;
         h1 {
-          margin-bottom: 2.5rem  /* 40/16 */;
+          margin-bottom: 2.5rem;
         }
         h2 {
           &:last-child {
-            margin-top: 1.25rem  /* 20/16 */;
+            margin-top: 1.25rem;
           }
         }
       }
     }
   }
   @media screen and (max-width: 900px){
-    height: 106.25rem  /* 1700/16 */;
+    height: 106.25rem;
     .background-list {
       .left-box, .right-box {
         &.left-box {
           width: calc(100% - 8.75rem);
-          height: calc(100% - 6.25rem  /* 100/16 */);
+          height: calc(100% - 6.25rem);
           bottom: 0;
           right: 0;
           display: block;
@@ -130,20 +88,20 @@
       }
     }
     .pre, .next {
-      width: 7.5rem  /* 120/16 */;
-      height: 7.5rem  /* 120/16 */;
+      width: 7.5rem;
+      height: 7.5rem;
     }
     .item {
       width: 80%;
       height: auto;
       img {
         width: auto;
-        height: 93.75rem  /* 1500/16 */;
+        height: 93.75rem;
         position: relative;
       }
       .text {
         h1 {
-          font-size: 7.5rem  /* 120/16 */;
+          font-size: 7.5rem;
         }
         h2 {
           font-size: 14px;
@@ -154,10 +112,16 @@
           margin-left: auto;
         }
         .text {
-          left: 10rem  /* 160/16 */;
+          left: 10rem;
           right: auto;
           text-align: left;
         }
+      }
+    }
+    .hd {
+      .swiper-slide {
+        width: 28.125rem  /* 337/16 */;
+        height: 28.125rem  /* 337/16 */;
       }
     }
   }

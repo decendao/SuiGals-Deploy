@@ -4,9 +4,8 @@ export default function Team() {
   return (
     <div id="team">
       <div className="h1s">
-        <h1>팀프로필</h1>
-        <h1>TEAM PROFILE</h1>
-        <h1>チームプロフィール</h1>
+    
+        <h1>TEAM </h1>
       </div>
       <h2>
         
@@ -16,8 +15,8 @@ export default function Team() {
           <div className="img" style={{
             backgroundImage: "url(/img/t1.png)"
           }}/>
-          <h1>JAMES</h1>
-          <h2>VDOL is the first</h2>
+          <h1>Luna</h1>
+          <h2>Artist Director</h2>
         </div>
         <div className="item">
           <div className="img" style={{
@@ -39,6 +38,31 @@ export default function Team() {
           }}/>
           <h1>DICK</h1>
           <h2>VDOL is the first</h2>
+          <div className="item">
+          <div className="img" style={{
+            backgroundImage: "url(/img/t4.png)"
+          }}/>
+          <h1>DICK</h1>
+          <h2>VDOL is the first</h2>
+        </div>
+
+        <div className="item">
+          <div className="img" style={{
+            backgroundImage: "url(/img/t4.png)"
+          }}/>
+          <h1>DICK</h1>
+          <h2>VDOL is the first</h2>
+        </div>
+
+        <div className="item">
+          <div className="img" style={{
+            backgroundImage: "url(/img/t4.png)"
+          }}/>
+          <h1>DICK</h1>
+          <h2>VDOL is the first</h2>
+        </div>
+
+        
         </div>
       </div>
     </div>
