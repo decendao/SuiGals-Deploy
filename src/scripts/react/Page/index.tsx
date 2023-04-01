@@ -43,15 +43,16 @@ export default function Page() {
         }}
       />
       <About/>
+      <Post imageList={["/img/concept1.png","/img/c2.png","/img/c3.png"]}/>
       <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
       <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
-      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
-      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
-      <Genesis/>
+  
+      
       <Roadmap/>
       <Team/>
       <Community/>
       <Faq/>
+      <Genesis/>
       <Footer/>
       <Music/>
     </>
