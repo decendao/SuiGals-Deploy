@@ -1,9 +1,9 @@
 #post {
   padding: 1rem;
-  height: 80rem;
-  min-height: 100vh;
+  min-height: 100vw;
+  height: 100vw;
   width: 100%;
   .swiper-container {
-    height: 100vh;
+    height: 100vw;
   }
 }
