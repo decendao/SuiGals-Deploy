@@ -11,7 +11,6 @@ import {useMoralis} from "react-moralis";
 import Modal from "./Modal";
 import Music from "./Music";
 import Post from "./Post";
-
 const message = "Pink3 is the Revolution!"
 
 export default function Page() {
@@ -44,7 +43,10 @@ export default function Page() {
         }}
       />
       <About/>
-      <Post/>
+      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
+      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
+      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
+      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
       <Genesis/>
       <Roadmap/>
       <Team/>

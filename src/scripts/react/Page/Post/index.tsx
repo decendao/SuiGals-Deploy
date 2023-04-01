@@ -3,8 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-
-export default function About() {
+interface Props {
+  imageList: string[];
+}
+export default function Post(props: Props) {
   return (
     <div id="post">
       <Swiper
@@ -18,17 +20,14 @@ export default function About() {
           disableOnInteraction: false,
         }}
         loop
-       
       >
-        <SwiperSlide>
-          <img src="/img/poster1.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/poster1.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/poster1.png" alt="" />
-        </SwiperSlide>
+        {props.imageList.map((item) => {
+          return (
+            <SwiperSlide>
+              <img src={item} alt="" />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );
