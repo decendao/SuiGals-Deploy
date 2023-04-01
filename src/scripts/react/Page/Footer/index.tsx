@@ -14,10 +14,10 @@ export default function Footer() {
           <img src="/img/f3.png" alt=""/>
         </a>
       </div>
-      <h2>2022 Pink 3 NFT. All Rights Reserved.</h2>
+      <h2>2023 SuiGals Official.</h2>
       <div className="fixed-box">
         <p>
-          <span>Pink3 Official</span>
+          <span>SuiGals Official</span>
           <a href="#" target="_blank">
           <img src="/img/rb/twitter_mini.png" alt=""/></a>
           <a href="#" target="_blank">
@@ -29,8 +29,8 @@ export default function Footer() {
           <a href="#" target="_blank">
           <img src="/img/rb/opensea_mini.png" alt=""/></a>
         </p>
-        <p>©Copyright YG Entertainment All rights reserved.</p>
-        <p>Pink3 is the Revolution!</p>
+        <p>©Copyright Sui Global Foundation All rights reserved.</p>
+        <p>The Face of Sui! </p>
       </div>
     </div>
   )
