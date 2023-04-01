@@ -4,15 +4,15 @@
     17.9375rem /* 287/16 */;
   .content {
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     h2 {
       font-size: 1.325rem /* 18/16 */;
       font-weight: 700;
       line-height: 2;
     }
     .left {
-      width: 40rem /* 640/16 */;
+      // width: 40rem /* 640/16 */;
       h1 {
         font-size: 7.125rem /* 130/16 */;
         line-height: 1;
@@ -37,7 +37,7 @@
       }
     }
     .right {
-      width: 45.9375rem /* 735/16 */;
+      // width: 45.9375rem /* 735/16 */;
       > img {
         width: 45.9375rem /* 735/16 */;
         height: 61.75rem /* 380/16 */;

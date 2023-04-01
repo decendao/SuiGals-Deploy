@@ -35,7 +35,9 @@
     width: var(--team-max-width);
     justify-content: space-between;
     padding-bottom: 5rem  /* 80/16 */;
-
+    &.list-bottom {
+      margin-top: 0.5rem;
+    }
     .item {
       width: 15.625rem  /* 250/16 */;
 

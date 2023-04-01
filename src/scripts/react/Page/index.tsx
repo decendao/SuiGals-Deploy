@@ -10,6 +10,7 @@ import Community from "./Community";
 import {useMoralis} from "react-moralis";
 import Modal from "./Modal";
 import Music from "./Music";
+import Post from "./Post";
 
 const message = "Pink3 is the Revolution!"
 
@@ -43,6 +44,7 @@ export default function Page() {
         }}
       />
       <About/>
+      <Post/>
       <Genesis/>
       <Roadmap/>
       <Team/>
