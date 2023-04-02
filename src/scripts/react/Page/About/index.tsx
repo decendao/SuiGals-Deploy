@@ -34,15 +34,10 @@ export default function About() {
           </div>
           {showMore ? (
             <button
+              className='more'
               onClick={() => {
                 setShowMore(false);
                 setShowText(true);
-              }}
-              style={{
-                fontSize: "2rem",
-                color: "#007AFF",
-                cursor: "pointer",
-                marginBottom: "2rem",
               }}
             >
               more
