@@ -44,7 +44,7 @@ export default function Page() {
         }}
       />
       <About />
-      <video
+      {/* <video
         src='/video/a.mp4'
         autoPlay
         width='100%'
@@ -59,14 +59,20 @@ export default function Page() {
         height='100%'
         loop
         muted
-      />
+      /> */}
 
-      <Post imageList={["/img/28.png", "/img/338.png", "/img/344.png"]} />
+    
 
       <Roadmap />
+
+      <Post imageList={[
+        
+        "/img/c1.png", "/img/c2.png", "/img/c3.png", "/img/c4.png","/img/c5.png",
+       
+    ]} />
+
       <Team />
       <Community />
-      <Genesis />
       <Faq />
       <Footer />
       {/* <Music /> */}

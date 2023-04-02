@@ -27,56 +27,61 @@ export default function Faq() {
       <div className="list">
         <div className="item open">
           <div className="title">
-            <h1>What is the PINK3 NFT?</h1>
+            <h1>When is the SuiGals NFT Mint/Launch?</h1>
             <div className="close">
               <img src="/img/zk.png" className="icon"/>
             </div>
           </div>
           <h2>
-            VDOL is the first virtual modeling agency in the metaverse created for NFT entrepreneurs with earnings possibilities of holding NFTs instead of flipping.
-            You are not only owning a digital collectible but also gaining access to the forefront of evolution in Virtual Humans industry metaverse.
-            Our Vdols are meant to exist as actual celebrities with their own careers, performing in things like music videos and virtual runway shows to maintain a regular income.
+          The SuiGal NFT launch is scheduled to coincide with the Sui Token generation next month. Stay tuned for the exact date announcement on our social media channels!
           </h2>
         </div>
         <div className="item">
           <div className="title">
-            <h1>VDOL is the first virtual modeling agency in the metaverse created for NFT?</h1>
+            <h1>Where can I mint SuiGal NFTs?</h1>
             <div className="close">
               <img src="/img/zk.png" className="icon"/>
             </div>
           </div>
           <h2>
-            VDOL is the first virtual modeling agency in the metaverse created for NFT entrepreneurs with earnings possibilities of holding NFTs instead of flipping.
-            You are not only owning a digital collectible but also gaining access to the forefront of evolution in Virtual Humans industry metaverse.
-            Our Vdols are meant to exist as actual celebrities with their own careers, performing in things like music videos and virtual runway shows to maintain a regular income.
+          SuiGals NFTs will be launched & traded on all major Sui NFT Marketplaces and Launchpads. More details regarding the platform will be shared soon on our website and social media channels.
           </h2>
         </div>
         <div className="item">
           <div className="title">
-            <h1>VDOL is the first virtual modeling agency in the metaverse created for NFT?</h1>
+            <h1>What is the price and the total supply of SuiGal NFTs?</h1>
             <div className="close">
               <img src="/img/zk.png" className="icon"/>
             </div>
           </div>
           <h2>
-            VDOL is the first virtual modeling agency in the metaverse created for NFT entrepreneurs with earnings possibilities of holding NFTs instead of flipping.
-            You are not only owning a digital collectible but also gaining access to the forefront of evolution in Virtual Humans industry metaverse.
-            Our Vdols are meant to exist as actual celebrities with their own careers, performing in things like music videos and virtual runway shows to maintain a regular income.
+          The price and the total supply of SuiGal NFTs is yet to be determined. More information about the supply will be provided prior to the official launch.
           </h2>
         </div>
         <div className="item">
           <div className="title">
-            <h1>VDOL is the first virtual modeling agency in the metaverse created for NFT?</h1>
+            <h1>How can I get whitelisted for the SuiGal NFT launch?</h1>
             <div className="close">
               <img src="/img/zk.png" className="icon"/>
             </div>
           </div>
           <h2>
-            VDOL is the first virtual modeling agency in the metaverse created for NFT entrepreneurs with earnings possibilities of holding NFTs instead of flipping.
-            You are not only owning a digital collectible but also gaining access to the forefront of evolution in Virtual Humans industry metaverse.
-            Our Vdols are meant to exist as actual celebrities with their own careers, performing in things like music videos and virtual runway shows to maintain a regular income.
+          To get on the whitelist, follow our social media accounts and join our official community channels. We will announce the specific steps and requirements for whitelisting in the coming weeks!
           </h2>
         </div>
+
+        <div className="item">
+          <div className="title">
+            <h1>How will the SuiGal NFT project benefit the overall Sui ecosystem?</h1>
+            <div className="close">
+              <img src="/img/zk.png" className="icon"/>
+            </div>
+          </div>
+          <h2>
+          The SuiGal NFT project will bring more diversity and fun to the Sui ecosystem, attracting web3 and AI enthusiasts, driving user engagement, and fostering a thriving community around the Sui Network.
+          </h2>
+        </div>
+
       </div>
     </div>
   )

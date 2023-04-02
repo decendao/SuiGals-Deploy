@@ -9,7 +9,6 @@ export default function Genesis() {
       <div className='background-list'></div>
       <img className='pre' src='/img/pre.png' alt='' />
       <img className='next' src='/img/next.png' alt='' />
-      <Swiper
         className='list'
         slidesPerView={1}
         slidesPerGroup={1}
@@ -24,38 +23,34 @@ export default function Genesis() {
             slidesPerGroup: 2,
           },
         }}
-      >
+  
+
+    {/* </Swiper>
         <SwiperSlide className='item left'>
-          <img src='/img/17.png' alt='' />
-          <div className='text'>
-            <h1>
-              <br />
-              <br />
-            </h1>
-            <h2>
-              <br />
-              <br />
-            </h2>
-            <h2></h2>
-          </div>
+          <img src='/img/17.png'  alt='' />
+
+          <img src='/img/18.png' alt='' />
+
+          <img src='/img/35.png' alt='' />
+
+          <img src='/img/44.png' alt='' />
+
         </SwiperSlide>
+
         <SwiperSlide className='item right'>
-          <img src='/img/16.png' alt='' />
-          <div className='text'>
-            <h1>
-              <br />
-            </h1>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className='item right'>
+          <img src='/img/15.png' alt='' />
+       
+        
           <img src='/img/28.png' alt='' />
-          <div className='text'>
-            <h1>
-              <br />
-            </h1>
-          </div>
-        </SwiperSlide>
-      </Swiper>
+      
+
+          <img src='/img/338.png' alt='' />
+       
+
+          <img src='/img/344.png' alt='' />
+          </SwiperSlide> */}
+       
+     
     </div>
   );
 }

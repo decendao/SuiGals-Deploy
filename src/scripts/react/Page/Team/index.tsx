@@ -57,13 +57,14 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/04.png)",
+              backgroundImage: "url(/img/marco.png)",
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://link3.to/invest'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
+
           </div>
           <h1>Marco</h1>
           <h2>Developer</h2>
@@ -74,13 +75,14 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/02.png)",
+              backgroundImage: "url(/img/04.png)",
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://link3.to/invest'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
+
           </div>
           <h1>Sandy</h1>
           <h2>Advisor</h2>
@@ -93,7 +95,7 @@ export default function Team() {
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://link3.to/invest'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>
@@ -108,7 +110,7 @@ export default function Team() {
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://link3.to/invest'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>
@@ -119,11 +121,11 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/07.png)",
+              backgroundImage: "url(/img/01.png)",
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://link3.to/invest'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>

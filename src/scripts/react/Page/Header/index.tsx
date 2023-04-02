@@ -51,7 +51,7 @@ export default function Header(props: Props) {
               TEAM
             </a>
             <a className='nav-item' href='#post'>
-              ART
+              FUTURE
             </a>
             <a className='nav-item' href='#faq'>
               FAQ
@@ -65,9 +65,7 @@ export default function Header(props: Props) {
             <a className='icon-item' href='#' target='_blank'>
               <img src='/img/discord_1.png' alt='' />
             </a>
-            <a className='icon-item' href='#' target='_blank'>
-              <img src='/img/opensea_1.png' alt='' />
-            </a>
+
           </div>
 
 
@@ -91,22 +89,22 @@ export default function Header(props: Props) {
       <div className='home_foot'>
         <div>
           <a href='#'>
-            <img src='img/16.png' alt='' />
+            <img src='img/suiart.jpg' alt='https://sui.art' />
           </a>
         </div>
         <div>
           <a href='#'>
-            <img src='' alt='' />
+            <img src='img/bluemove.png' alt='https://sui.bluemove.net/launchpad' />
           </a>
         </div>
         <div>
           <a href='#'>
-            <img src='' alt='' />
+            <img src='img/suigallery.jpg' alt='https://www.sui.gallery/' />
           </a>
         </div>
         <div>
           <a href='#'>
-            <img src='' alt='' />
+            <img src='img/clutchy.jpg' alt='https://clutchy.io/' />
           </a>
         </div>
       </div>

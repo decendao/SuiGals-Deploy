@@ -5,7 +5,7 @@ export default function Footer() {
       <img src="/img/logo.png" className="logo"/>
       <div className="list">
         <a className="item" href="">
-          <img src="/img/f1.png" alt=""/>
+          <img src="/img/twitter.png" alt=""/>
         </a>
         <a className="item" href="">
           <img src="/img/f2.png" alt=""/>
