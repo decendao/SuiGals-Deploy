@@ -39,7 +39,7 @@ export default function About() {
                 setShowText(true);
               }}
               style={{
-                fontSize: "1.5rem",
+                fontSize: "2rem",
                 color: "#007AFF",
                 cursor: "pointer",
                 marginBottom: "2rem",
