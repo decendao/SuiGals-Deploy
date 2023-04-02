@@ -81,7 +81,9 @@
     .menu-btn {
       display: none;
     }
-    #header-video {
+
+
+#header-video {
       position: absolute;
       left: 0;
       top: 0;
@@ -89,7 +91,7 @@
       height: 100%;
       mask: url("./1.svg");
       mask-repeat: no-repeat;
-      mask-size: 72%;
+      mask-size: 78%;
       mask-position: center 50%;
       object-fit:inherit;
     }
@@ -240,7 +242,7 @@
         z-index: 1;
       }
       #header-video {
-        height: 60%;
+        height: 20%;
         top: 20%;
         mask-size: 80% auto;
       }

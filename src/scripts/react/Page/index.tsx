@@ -11,7 +11,7 @@ import {useMoralis} from "react-moralis";
 import Modal from "./Modal";
 import Music from "./Music";
 import Post from "./Post";
-const message = "Pink3 is the Revolution!"
+const message = "Sui-Native AIGC Metaverse!"
 
 export default function Page() {
   const { authenticate, isAuthenticated, user } = useMoralis();
@@ -43,14 +43,15 @@ export default function Page() {
         }}
       />
       <About/>
+      <Post imageList={["/img/concept1.png","/img/c2.png","/img/c3.png"]}/>
       <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
       <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
-      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
-      <Post imageList={["/img/poster1.png","/img/17.png","/img/17.png"]}/>
-      <Genesis/>
+  
+      
       <Roadmap/>
       <Team/>
       <Community/>
+      <Genesis/>
       <Faq/>
       <Footer/>
       <Music/>
