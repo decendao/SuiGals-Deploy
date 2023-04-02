@@ -68,6 +68,7 @@ export default function Header(props: Props) {
         id='header-video'
         src='/video/headervid1.mp4'
         autoPlay
+        poster='./1.svg'
         loop
         muted
       />
