@@ -44,13 +44,24 @@ export default function Page() {
         }}
       />
       <About />
+      <video
+        src='/video/a.mp4'
+        autoPlay
+        width='100%'
+        height='100%'
+        loop
+        muted
+      />
+      <video
+        src='/video/b.mp4'
+        autoPlay
+        width='100%'
+        height='100%'
+        loop
+        muted
+      />
 
-      <Post imageList={["/video/a.mp4", "/video/a.mp4", "/video/a.mp4"]} />
-      <Post imageList={["/video/a.mp4", "/video/a.mp4", "/video/a.mp4"]} />
-      <Post imageList={["/video/a.mp4", "/video/a.mp4", "/video/a.mp4"]} />
-      {/* <Post imageList={["/img/28.png.png", "/img/338.png", "/img/344.png"]} />
-      <Post imageList={["/img/35.png", "/img/380.png", "/img/385.png"]} />
-      <Post imageList={["/img/44.png", "/img/513.png", "/img/17.png"]} /> */}
+      <Post imageList={["/img/28.png", "/img/338.png", "/img/344.png"]} />
 
       <Roadmap />
       <Team />

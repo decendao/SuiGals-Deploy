@@ -7,8 +7,6 @@ interface Props {
   imageList: string[];
 }
 export default function Post(props: Props) {
-  console.log(props);
-
   return (
     <div id='post'>
       <Swiper
@@ -16,7 +14,7 @@ export default function Post(props: Props) {
         pagination={true}
         modules={[Pagination, Autoplay]}
         slidesPerView='auto'
-        loopedSlides={3}
+        loopedSlides={9}
         autoplay={{
           delay: 800,
           disableOnInteraction: false,
@@ -26,15 +24,7 @@ export default function Post(props: Props) {
         {props.imageList.map((item) => {
           return (
             <SwiperSlide>
-              <video
-                src={item}
-                autoPlay
-                width='100%'
-                height='100%'
-                loop
-                muted
-              />
-              {/* <img src={item} alt='' className='post_img' /> */}
+              <img src={item} alt='' className='post_img' />
             </SwiperSlide>
           );
         })}
