@@ -38,79 +38,118 @@ export default function Community() {
 
       <div className='list'>
         <div className='item'>
-          <img src='/img/community/344.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/344.png' alt='' />
+          </a>
+
           <div className='title'>vivi</div>
         </div>
         <div className='item'>
-          <img src='/img/community/380.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/380.png' alt='' />
+          </a>
           <div className='title'>odod</div>
         </div>
         <div className='item'>
-          <img src='/img/community/35.png' alt='' />
+          <a href=''>
+            <img src='/img/community/35.png' alt='' />
+          </a>
           <div className='title'>joe lee</div>
         </div>
         <div className='item'>
-          <img src='/img/community/28.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/28.png' alt='' />
+          </a>
           <div className='title'>sam</div>
         </div>
         <div className='item'>
-          <img src='/img/community/385.png' alt='' />
+          <a href=''>
+            <img src='/img/community/385.png' alt='' />
+          </a>
           <div className='title'>super</div>
         </div>
         <div className='item'>
-          <img src='/img/community/44.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/44.png' alt='' />
+          </a>
           <div className='title'>vivi</div>
         </div>
         <div className='item'>
-          <img src='/img/community/513.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/513.png' alt='' />
+          </a>
           <div className='title'>odod</div>
         </div>
         <div className='item'>
-          <img src='/img/community/338.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/338.png' alt='' />
+          </a>
           <div className='title'>joe lee</div>
         </div>
         <div className='item'>
-          <img src='/img/community/344.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/344.png' alt='' />
+          </a>
           <div className='title'>sam</div>
         </div>
         <div className='item'>
-          <img src='/img/community/380.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/380.png' alt='' />
+          </a>
           <div className='title'>super</div>
         </div>
         <div className='item'>
-          <img src='/img/community/35.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/35.png' alt='' />
+          </a>
           <div className='title'>vivi</div>
         </div>
         <div className='item'>
-          <img src='/img/community/28.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/28.png' alt='' />
+          </a>
           <div className='title'>odod</div>
         </div>
         <div className='item'>
-          <img src='/img/community/385.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/385.png' alt='' />
+          </a>
           <div className='title'>joe lee</div>
         </div>
         <div className='item'>
-          <img src='/img/community/44.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/44.png' alt='' />
+          </a>
           <div className='title'>sam</div>
         </div>
         <div className='item'>
-          <img src='/img/community/513.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/513.png' alt='' />
+          </a>
           <div className='title'>super</div>
         </div>
         <div className='item'>
-          <img src='/img/community/338.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/338.png' alt='' />
+          </a>
           <div className='title'>vivi</div>
         </div>
         <div className='item'>
-          <img src='/img/community/344.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/344.png' alt='' />
+          </a>
           <div className='title'>odod</div>
         </div>
         <div className='item'>
-          <img src='/img/community/380.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/380.png' alt='' />
+          </a>
           <div className='title'>joe lee</div>
         </div>
         <div className='item'>
-          <img src='/img/community/35.png' alt='' />
+          <a href='#'>
+            <img src='/img/community/35.png' alt='' />
+          </a>
           <div className='title'>sam</div>
         </div>
       </div>
