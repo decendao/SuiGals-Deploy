@@ -50,7 +50,7 @@ export default function Header(props: Props) {
             <a className='nav-item' href='#team'>
               TEAM
             </a>
-            <a className='nav-item' href='#Concept'>
+            <a className='nav-item' href='#post'>
               ART
             </a>
             <a className='nav-item' href='#faq'>
@@ -69,6 +69,8 @@ export default function Header(props: Props) {
               <img src='/img/opensea_1.png' alt='' />
             </a>
           </div>
+
+
         </div>
         <div className='menu-btn'>
           <img src='/img/menu.png' alt='' />

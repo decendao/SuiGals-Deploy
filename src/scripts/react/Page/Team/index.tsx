@@ -12,7 +12,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t1.png)",
+              backgroundImage: "url(/img/06.png)",
             }}
           >
             <a
@@ -27,7 +27,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t2.png)",
+              backgroundImage: "url(/img/10.png)",
             }}
           >
             <a
@@ -42,7 +42,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t3.png)",
+              backgroundImage: "url(/img/02.png)",
             }}
           >
             <a
@@ -57,7 +57,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t4.png)",
+              backgroundImage: "url(/img/04.png)",
             }}
           >
             <a
@@ -74,7 +74,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t4.png)",
+              backgroundImage: "url(/img/02.png)",
             }}
           >
             <a
@@ -89,7 +89,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t4.png)",
+              backgroundImage: "url(/img/03.png)",
             }}
           >
             <a
@@ -104,7 +104,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t4.png)",
+              backgroundImage: "url(/img/05.png)",
             }}
           >
             <a
@@ -119,7 +119,7 @@ export default function Team() {
           <div
             className='img'
             style={{
-              backgroundImage: "url(/img/t4.png)",
+              backgroundImage: "url(/img/07.png)",
             }}
           >
             <a

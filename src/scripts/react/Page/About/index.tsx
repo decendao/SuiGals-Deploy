@@ -13,7 +13,7 @@ export default function About() {
       <div className='content'>
         <div className='word'>
           <div className='left'>
-            <h1>Virtual Idols</h1>
+            <h1>The Face of Sui!</h1>
             <div className='subtitle'></div>
             <h2>
               Introducing "SuiGal," a Sui-Native NFT, set to become the
@@ -84,17 +84,52 @@ export default function About() {
             loop
           >
             <SwiperSlide>
-              <img src='/img/poster1.png' alt='' />
+              <img src='/img/11.png' alt='' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src='/img/poster1.png' alt='' />
+              <img src='/img/12.png' alt='' />
             </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/13.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/14.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/05.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/06.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/07.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/08.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/15.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/16.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/17.png' alt='' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src='/img/18.png' alt='' />
+            </SwiperSlide>
+
           </Swiper>
         </div>
         {/* <div className="right">
           <img src="/img/poster1.png" alt="" />
+
+
           <h2></h2>
         </div> */}
+
+        
       </div>
     </div>
   );
