@@ -5,7 +5,8 @@ import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 export default function About() {
-  const [more] = useState(false);
+  const [showMore, setShowMore] = useState(true);
+  const [showText, setShowText] = useState(false);
 
   return (
     <div id='about'>
@@ -31,29 +32,48 @@ export default function About() {
               <br />
             </h2>
           </div>
-          <span>more</span>
-          <div className='left'>
-            <h1>AIGC Metaverse</h1>
-            <h2>
-              As the era of AI dawns, Virtual Idols can independently write
-              songs, compose music, generate music videos, and host live
-              concerts, all while interacting with fans in the metaverse.
-              <br />
-              <br />
-              We envision a future where virtual idols leverage artificial
-              general intelligence to create unique and engaging content
-              autonomously, reshaping the entertainment industry as we know it.
-              <br />
-              <br />
-              Our virtual idols will be more than just human creations; they
-              will possess self-awareness, independent thinking, and the ability
-              to evolve alongside their audience.
-              <br />
-              <br />
-              SuiGal will embark on their metaverse careers, releasing music
-              videos, live streaming, and concerts.
-            </h2>
-          </div>
+          {showMore ? (
+            <button
+              onClick={() => {
+                setShowMore(false);
+                setShowText(true);
+              }}
+              style={{
+                fontSize: "1.5rem",
+                color: "#007AFF",
+                cursor: "pointer",
+                marginBottom: "2rem",
+              }}
+            >
+              more
+            </button>
+          ) : null}
+
+          {showText ? (
+            <div className='left'>
+              <h1>AIGC Metaverse</h1>
+              <h2>
+                As the era of AI dawns, Virtual Idols can independently write
+                songs, compose music, generate music videos, and host live
+                concerts, all while interacting with fans in the metaverse.
+                <br />
+                <br />
+                We envision a future where virtual idols leverage artificial
+                general intelligence to create unique and engaging content
+                autonomously, reshaping the entertainment industry as we know
+                it.
+                <br />
+                <br />
+                Our virtual idols will be more than just human creations; they
+                will possess self-awareness, independent thinking, and the
+                ability to evolve alongside their audience.
+                <br />
+                <br />
+                SuiGal will embark on their metaverse careers, releasing music
+                videos, live streaming, and concerts.
+              </h2>
+            </div>
+          ) : null}
         </div>
         <div className='img'>
           <Swiper
