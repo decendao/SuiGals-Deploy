@@ -47,24 +47,7 @@ export default function Header(props: Props) {
               FAQ
             </a>
           </div>
-          {
-            props.noConnect ? (
-              <div className="connect" onClick={()=>{
-                props.connect()
-              }}>
-                <img src="/img/wallet.png" alt=""/>
-                CONNECT WALLET
-              </div>
-            ) : (
-              <div className="connect" onClick={()=>{
-                console.log("show")
-                props.show()
-              }}>
-                <img src="/img/wallet.png" alt=""/>
-                {id(props.userAddress)}
-              </div>
-            )
-          }
+
           <div className="icon-list">
             <a className="icon-item" href="#" target="_blank">
               <img src="/img/twitter_1.png" alt=""/>
@@ -83,10 +66,7 @@ export default function Header(props: Props) {
       </div>
       <video id="header-video" src="/video/headervid1.mp4" autoPlay loop muted/>
 
-
-      <div className="coming-button" onClick={props.show}>
-      Connect
-      </div>
+   
     </div>
   )
 }

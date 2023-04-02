@@ -11,7 +11,7 @@ import {useMoralis} from "react-moralis";
 import Modal from "./Modal";
 import Music from "./Music";
 import Post from "./Post";
-const message = "Pink3 is the Revolution!"
+const message = "Sui-Native AIGC Metaverse!"
 
 export default function Page() {
   const { authenticate, isAuthenticated, user } = useMoralis();
@@ -51,8 +51,8 @@ export default function Page() {
       <Roadmap/>
       <Team/>
       <Community/>
-      <Faq/>
       <Genesis/>
+      <Faq/>
       <Footer/>
       <Music/>
     </>

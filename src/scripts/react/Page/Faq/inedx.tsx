@@ -22,9 +22,7 @@ export default function Faq() {
   return (
     <div id="faq">
       <div className="h1s">
-        <h1>질문</h1>
         <h1>FAQ</h1>
-        <h1>よくある質問</h1>
       </div>
       <div className="list">
         <div className="item open">
