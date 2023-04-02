@@ -8,12 +8,12 @@ interface Props {
 }
 export default function Post(props: Props) {
   return (
-    <div id="post">
+    <div id='post'>
       <Swiper
-        className="swiper-container"
+        className='swiper-container'
         pagination={true}
         modules={[Pagination, Autoplay]}
-        slidesPerView="auto"
+        slidesPerView='auto'
         loopedSlides={9}
         autoplay={{
           delay: 1800,
@@ -24,7 +24,7 @@ export default function Post(props: Props) {
         {props.imageList.map((item) => {
           return (
             <SwiperSlide>
-              <img src={item} alt="" />
+              <img src={item} alt='' className='post_img' />
             </SwiperSlide>
           );
         })}

@@ -2,93 +2,133 @@ import "./index.scss";
 
 export default function Team() {
   return (
-    <div id="team">
-      <div className="h1s">
+    <div id='team'>
+      <div className='h1s'>
         <h1>TEAM </h1>
       </div>
       <h2></h2>
-      <div className="list">
-        <div className="item">
+      <div className='list'>
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t1.png)",
             }}
-          />
-          <h1>Luna</h1>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Buna</h1>
           <h2>Artist Director</h2>
         </div>
-        <div className="item">
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t2.png)",
             }}
-          />
-          <h1>TOM</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>SuiBoi</h1>
+          <h2>Co-Founder</h2>
         </div>
-        <div className="item">
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t3.png)",
             }}
-          />
-          <h1>KOBE</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Eva</h1>
+          <h2>Community Manager</h2>
         </div>
-        <div className="item">
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t4.png)",
             }}
-          />
-          <h1>DICK</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Marco</h1>
+          <h2>Developer</h2>
         </div>
       </div>
-      <div className="list list-bottom">
-        <div className="item">
+      <div className='list list-bottom'>
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t4.png)",
             }}
-          />
-          <h1>DICK</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Sandy</h1>
+          <h2>Advisor</h2>
         </div>
-        <div className="item">
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t4.png)",
             }}
-          />
-          <h1>DICK</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Serena</h1>
+          <h2>Advisor</h2>
         </div>
-        <div className="item">
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t4.png)",
             }}
-          />
-          <h1>DICK</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Dudu</h1>
+          <h2>Ambassador</h2>
         </div>
-        <div className="item">
+        <div className='item'>
           <div
-            className="img"
+            className='img'
             style={{
               backgroundImage: "url(/img/t4.png)",
             }}
-          />
-          <h1>DICK</h1>
-          <h2>VDOL is the first</h2>
+          >
+            <a
+              href='http://www.baidu.com'
+              style={{ display: "inline-block", width: "100%", height: "100%" }}
+            ></a>
+          </div>
+          <h1>Christy</h1>
+          <h2>Community Mod</h2>
         </div>
       </div>
     </div>
