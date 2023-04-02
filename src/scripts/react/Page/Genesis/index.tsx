@@ -5,12 +5,12 @@ import { Navigation } from "swiper";
 
 export default function Genesis() {
   return (
-    <div id="Pink_Venom">
-      <div className="background-list"></div>
-      <img className="pre" src="/img/pre.png" alt="" />
-      <img className="next" src="/img/next.png" alt="" />
+    <div id='Pink_Venom'>
+      <div className='background-list'></div>
+      <img className='pre' src='/img/pre.png' alt='' />
+      <img className='next' src='/img/next.png' alt='' />
       <Swiper
-        className="list"
+        className='list'
         slidesPerView={1}
         slidesPerGroup={1}
         modules={[Navigation]}
@@ -25,9 +25,9 @@ export default function Genesis() {
           },
         }}
       >
-        <SwiperSlide className="item left">
-          <img src="/img/17.png" alt="" />
-          <div className="text">
+        <SwiperSlide className='item left'>
+          <img src='/img/17.png' alt='' />
+          <div className='text'>
             <h1>
               <br />
               <br />
@@ -39,17 +39,17 @@ export default function Genesis() {
             <h2></h2>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="item right">
-          <img src="/img/16.png" alt="" />
-          <div className="text">
+        <SwiperSlide className='item right'>
+          <img src='/img/16.png' alt='' />
+          <div className='text'>
             <h1>
               <br />
             </h1>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="item right">
-          <img src="/img/18.png" alt="" />
-          <div className="text">
+        <SwiperSlide className='item right'>
+          <img src='/img/28.png' alt='' />
+          <div className='text'>
             <h1>
               <br />
             </h1>
