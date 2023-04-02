@@ -1,5 +1,6 @@
 import "./index.scss";
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
+import { baseUrl } from "./constant";
 import $ from "jquery";
 type Props = {
   show(): void;
@@ -11,6 +12,15 @@ export default function Header(props: Props) {
   function id(str: string | null) {
     return str ? str.slice(0, 4) + "..." + str.slice(-4) : "";
   }
+
+  useLayoutEffect(() => {
+    const element = document.getElementById(
+      "header-video"
+    )! as HTMLVideoElement;
+    element.oncanplay = () => {
+      $("#header-video").addClass("mask");
+    };
+  }, []);
   useEffect(() => {
     $(".menu-btn").click(function () {
       $(".top-nav").addClass("active");
@@ -68,7 +78,7 @@ export default function Header(props: Props) {
         id='header-video'
         src='/video/headervid1.mp4'
         autoPlay
-        poster='./1.svg'
+        poster={baseUrl}
         loop
         muted
       />
