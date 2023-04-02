@@ -1,8 +1,7 @@
 #Pink_Venom {
-  height: 61.25rem; 
+  height: 61.25rem;
   position: relative;
   background-color: white;
-  padding-left: 3.3125rem; 
   .list {
     display: flex;
     height: 100%;
@@ -73,6 +72,7 @@
   }
   @media screen and (max-width: 900px){
     height: 106.25rem;
+    background-color: #fbefeb;
     .background-list {
       .left-box, .right-box {
         &.left-box {

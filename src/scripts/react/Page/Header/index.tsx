@@ -74,14 +74,17 @@ export default function Header(props: Props) {
           <img src='/img/menu.png' alt='' />
         </div>
       </div>
-      <video
+      <div id='header-video'>
+        <img src={baseUrl} alt='' style={{ width: "100%", height: "auto" }} />
+      </div>
+      {/* <video
         id='header-video'
         src='/video/headervid1.mp4'
         autoPlay
         poster={baseUrl}
         loop
         muted
-      />
+      /> */}
       {/* home页底部链接 */}
       <div className='home_foot'>
         <div>
