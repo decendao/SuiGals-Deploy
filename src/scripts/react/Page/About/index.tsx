@@ -1,9 +1,12 @@
 import "./index.scss";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 export default function About() {
+  const [more] = useState(false);
+
   return (
     <div id='about'>
       <div className='content'>
@@ -28,7 +31,7 @@ export default function About() {
               <br />
             </h2>
           </div>
-
+          <span>more</span>
           <div className='left'>
             <h1>AIGC Metaverse</h1>
             <h2>
