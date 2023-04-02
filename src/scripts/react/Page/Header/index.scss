@@ -82,6 +82,24 @@
     .menu-btn {
       display: none;
     }
+    .home_foot {
+      width: 75%;
+      position: absolute;
+      bottom:10rem;
+      display: flex;
+      justify-content: space-between;
+      >div {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        a {
+          display: inline-block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
 
 
 #header-video {
@@ -248,5 +266,29 @@
         top: 20%;
         mask-size: 80% auto;
       }
+       .home_foot {
+        width: 75%;
+        position: absolute;
+        bottom:30rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      >div {
+        width: 35rem;
+        height: 35rem;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        margin-bottom: 10rem;
+        a {
+          display: inline-block;
+          height: 100%;
+          width: 100%;
+        }
+      }
     }
+
+    }
+
+
+
   }
