@@ -11,7 +11,10 @@
     }
     .img {
       flex: 1;
-      padding-left: 5rem;
+      width: 100%;
+      padding-left: 4rem;
+      margin-top: 3rem;
+
     }
     h2 {
       font-size: 1.325rem /* 18/16 */;
@@ -21,7 +24,7 @@
     .left {
       // width: 40rem /* 640/16 */;
       h1 {
-        font-size: 7.125rem /* 130/16 */;
+        font-size: 10.125rem /* 130/16 */;
         line-height: 1;
         color: #fb98ad;
         font-family: "ale", serif;
@@ -128,6 +131,14 @@
 
             .right {
               width: 100%;
+            h2 {
+              font-size: 4.125rem /* 18/16 */;
+              font-weight: 700;
+              line-height: 1.8;
+              text-transform: uppercase;
+              letter-spacing: 0.1rem;
+              color: #fb98ad;
+            }
 
               > img {
                 width: 100%;
@@ -160,5 +171,6 @@
     .content {
       display: block;
     }
+
   }
 }
