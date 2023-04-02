@@ -4,8 +4,14 @@
     17.9375rem /* 287/16 */;
   .content {
     margin: 0 auto;
-    // display: flex;
+    display: flex;
     // justify-content: space-between;
+    .word {
+      flex: 1;
+    }
+    .img {
+      flex: 1;
+    }
     h2 {
       font-size: 1.325rem /* 18/16 */;
       font-weight: 500;
@@ -147,6 +153,11 @@
           flex-shrink: 0;
         }
       }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .content {
+      display: block;
     }
   }
 }
