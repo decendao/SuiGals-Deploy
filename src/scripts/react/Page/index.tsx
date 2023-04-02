@@ -44,9 +44,13 @@ export default function Page() {
         }}
       />
       <About />
-      <Post imageList={["/img/28.png.png", "/img/338.png", "/img/344.png"]} />
+
+      <Post imageList={["/video/a.mp4", "/video/a.mp4", "/video/a.mp4"]} />
+      <Post imageList={["/video/a.mp4", "/video/a.mp4", "/video/a.mp4"]} />
+      <Post imageList={["/video/a.mp4", "/video/a.mp4", "/video/a.mp4"]} />
+      {/* <Post imageList={["/img/28.png.png", "/img/338.png", "/img/344.png"]} />
       <Post imageList={["/img/35.png", "/img/380.png", "/img/385.png"]} />
-      <Post imageList={["/img/44.png", "/img/513.png", "/img/17.png"]} />
+      <Post imageList={["/img/44.png", "/img/513.png", "/img/17.png"]} /> */}
 
       <Roadmap />
       <Team />
