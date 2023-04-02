@@ -74,16 +74,24 @@ export default function Header(props: Props) {
       {/* home页底部链接 */}
       <div className='home_foot'>
         <div>
-          <a href=''></a>
+          <a href='#'>
+            <img src='img/16.png' alt='' />
+          </a>
         </div>
         <div>
-          <a href=''></a>
+          <a href='#'>
+            <img src='' alt='' />
+          </a>
         </div>
         <div>
-          <a href=''></a>
+          <a href='#'>
+            <img src='' alt='' />
+          </a>
         </div>
         <div>
-          <a href=''></a>
+          <a href='#'>
+            <img src='' alt='' />
+          </a>
         </div>
       </div>
     </div>

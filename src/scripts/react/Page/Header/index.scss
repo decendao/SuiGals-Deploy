@@ -85,18 +85,25 @@
     .home_foot {
       width: 75%;
       position: absolute;
-      bottom:10rem;
+      bottom:16rem;
       display: flex;
       justify-content: space-between;
       >div {
-        width: 14rem;
-        height: 14rem;
+        padding: 5px;
+        width: 10rem;
+        height: 10rem;
         border-radius: 50%;
-        border: 1px solid #fff;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 12px 10px -10px rgba(0,0,0,0.3), 0 0 8px 0 rgba(0,0,0,0.13);
+
+        border: none;
         a {
           display: inline-block;
           height: 100%;
           width: 100%;
+          img {
+          border-radius: 50%;
+          }
         }
       }
     }
@@ -283,6 +290,7 @@
           display: inline-block;
           height: 100%;
           width: 100%;
+
         }
       }
     }

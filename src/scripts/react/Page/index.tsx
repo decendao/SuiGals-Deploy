@@ -54,7 +54,7 @@ export default function Page() {
       <Genesis />
       <Faq />
       <Footer />
-      <Music />
+      {/* <Music /> */}
     </>
   );
 }
