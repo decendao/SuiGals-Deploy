@@ -8,7 +8,7 @@ export default function Footer() {
           <img src="/img/twitter.png" alt=""/>
         </a>
         <a className="item" href="">
-          <img src="/img/f2.png" alt=""/>
+          <img src="/img/discord.png" alt=""/>
         </a>
         <a className="item" href="">
           <img src="/img/f3.png" alt=""/>

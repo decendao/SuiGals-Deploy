@@ -117,7 +117,7 @@ export default function About() {
               <img src='/img/17.png' alt='' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src='/img/18.png' alt='' />
+              <img src='/img/09.png' alt='' />
             </SwiperSlide>
 
           </Swiper>

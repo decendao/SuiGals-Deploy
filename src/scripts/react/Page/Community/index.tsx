@@ -20,21 +20,21 @@ export default function Community() {
         Thank you all for being part of this exciting journey!
       </h2>
       <div className='icon-list'>
-        <a href='' className='icon-item'>
-          <img src='/img/community/twitter.png' alt='' />
+        <a href='https://link3.to/suiworld' className='icon-item'>
+          <img src='/img/suihq.jpg' alt='' />
         </a>
         <a href='' className='icon-item'>
-          <img src='/img/community/discord.png' alt='' />
+          <img src='/img/suiglobal.jpg' alt='' />
         </a>
-        <a href='' className='icon-item'>
-          <img src='/img/community/instagram.png' alt='' />
+        <a href='https://seapad.fund/' className='icon-item'>
+          <img src='/img/seapad.jpg' alt='' />
         </a>
-        <a href='' className='icon-item'>
-          <img src='/img/community/tikok.png' alt='' />
+        <a href='https://belaunch.io/' className='icon-item'>
+          <img src='/img/blaunch.jpg' alt='' />
         </a>
       </div>
 
-      <h3>Join the Amazing SuiGal Community Now!</h3>
+      <h3>Join the Amazing SuiGals Community Now!</h3>
 
       <div className='list'>
         <div className='item'>
