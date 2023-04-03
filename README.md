@@ -11,6 +11,7 @@
 ### Project Website
 
 https://suigals.vercel.app/
+https://twitter.com/suigalsnft
 
 ### Primary Contact
 
