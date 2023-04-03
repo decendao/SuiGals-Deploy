@@ -1,7 +1,7 @@
 ## Basic Information
 
 # SuiGals - Sui Native Virtual Idols NFT
-![](https://github.com/decendao/SuiGals-Deploy/blob/main/logo.png)
+![](https://github.com/decendao/SuiGals-Deploy/blob/main/banner.jpg)
 
 ### Project Name or Logo
 
