@@ -10,9 +10,7 @@ export default function Footer() {
         <a className="item" href="https://discord.com/invite/bAsGGa6pvs">
           <img src="/img/discord.png" alt=""/>
         </a>
-        <a className="item" href="">
-          <img src="/img/f3.png" alt=""/>
-        </a>
+
       </div>
       <h2>2023 SuiGals Official.</h2>
       <div className="fixed-box">
@@ -20,7 +18,7 @@ export default function Footer() {
           <span>SuiGals Official</span>
           <a href="https://twitter.com/suigalsnft" target="_blank">
           <img src="/img/rb/twitter_mini.png" alt=""/></a>
-          <a href="#" target="_blank">
+          <a href="https://discord.com/invite/bAsGGa6pvs" target="_blank">
           <img src="/img/rb/discord_mini.png" alt=""/></a>
           <a href="#" target="_blank">
           <img src="/img/rb/ins_mini.png" alt=""/></a>
