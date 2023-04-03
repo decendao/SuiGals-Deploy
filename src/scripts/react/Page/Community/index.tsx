@@ -13,7 +13,7 @@ export default function Community() {
         We're incredibly grateful for the support from our entire Sui Community!
         <br />
         <br />
-        🌐 Together, we'll make SuiGal a sensation, attracting even more web3
+        🌐 Together, we'll make SuiGals a sensation, attracting even more web3
         and AI enthusiasts to join the vibrant Sui ecosystem. 💫
         <br />
         <br />
@@ -44,7 +44,7 @@ export default function Community() {
 
       <h3>Join the Amazing SuiGals Community Now!</h3>
 
-      <div className='list'>
+      {/* <div className='list'>
         <div className='item'>
           <a href='#'>
             <img src='/img/community/344.png' alt='' />
@@ -160,7 +160,7 @@ export default function Community() {
           </a>
           <div className='title'>sam</div>
         </div>
-      </div>
+      </div> */}
 
       <div className='hd'>
         <Swiper

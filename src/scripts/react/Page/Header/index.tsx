@@ -52,10 +52,10 @@ export default function Header(props: Props) {
           </div>
 
           <div className='icon-list'>
-            <a className='icon-item' href='#' target='_blank'>
+            <a className='icon-item' href='https://twitter.com/suigalsnft' target='_blank'>
               <img src='/img/twitter_1.png' alt='' />
             </a>
-            <a className='icon-item' href='#' target='_blank'>
+            <a className='icon-item' href='https://discord.gg/bAsGGa6pvs' target='_blank'>
               <img src='/img/discord_1.png' alt='' />
             </a>
           </div>
@@ -79,13 +79,13 @@ export default function Header(props: Props) {
           <a href='https://sui.bluemove.net/launchpad'>
             <img src='img/bluemove.png' alt='' />
           </a>
-          <h1 className='title'>launchpad</h1>
+          <h1 className='title'>bluemove</h1>
         </div>
         <div>
           <a href='https://www.sui.gallery'>
             <img src='img/suigallery.jpg' alt='' />
           </a>
-          <h1 className='title'>gallery</h1>
+          <h1 className='title'>sui.gallery</h1>
         </div>
         <div>
           <a href='https://clutchy.io'>

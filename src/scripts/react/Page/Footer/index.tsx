@@ -4,10 +4,10 @@ export default function Footer() {
     <div id="footer">
       <img src="/img/logo.png" className="logo"/>
       <div className="list">
-        <a className="item" href="">
+        <a className="item" href="https://twitter.com/suigalsnft">
           <img src="/img/twitter.png" alt=""/>
         </a>
-        <a className="item" href="">
+        <a className="item" href="https://discord.com/invite/bAsGGa6pvs">
           <img src="/img/discord.png" alt=""/>
         </a>
         <a className="item" href="">
@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="fixed-box">
         <p>
           <span>SuiGals Official</span>
-          <a href="#" target="_blank">
+          <a href="https://twitter.com/suigalsnft" target="_blank">
           <img src="/img/rb/twitter_mini.png" alt=""/></a>
           <a href="#" target="_blank">
           <img src="/img/rb/discord_mini.png" alt=""/></a>

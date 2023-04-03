@@ -16,11 +16,11 @@ export default function About() {
             <h1>The Face of Sui!</h1>
             <div className='subtitle'></div>
             <h2>
-              Introducing "SuiGal," a Sui-Native NFT, set to become the
+              Introducing "SuiGals," a Sui-Native NFT, set to become the
               metaverse ambassadors of the Sui network.
               <br />
               <br />
-              SuiGal will consist of a diverse and talented lineup of virtual
+              SuiGals will consist of a diverse and talented lineup of virtual
               idols, each with their own distinct personalities, styles, and
               abilities.
               <br />
@@ -64,7 +64,7 @@ export default function About() {
                 ability to evolve alongside their audience.
                 <br />
                 <br />
-                SuiGal will embark on their metaverse careers, releasing music
+                SuiGals will embark on their metaverse careers, releasing music
                 videos, live streaming, and concerts.
               </h2>
             </div>
