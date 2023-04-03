@@ -20,18 +20,26 @@ export default function Community() {
         Thank you all for being part of this exciting journey!
       </h2>
       <div className='icon-list'>
-        <a href='https://link3.to/suiworld' className='icon-item'>
-          <img src='/img/suihq.jpg' alt='' />
-        </a>
-        <a href='' className='icon-item'>
-          <img src='/img/suiglobal.jpg' alt='' />
-        </a>
-        <a href='https://seapad.fund/' className='icon-item'>
-          <img src='/img/seapad.jpg' alt='' />
-        </a>
-        <a href='https://belaunch.io/' className='icon-item'>
-          <img src='/img/blaunch.jpg' alt='' />
-        </a>
+        <div>
+          <a href='https://link3.to/suiworld' className='icon-item'>
+            <img src='/img/suihq.jpg' alt='' />
+          </a>
+        </div>
+        <div>
+          <a href='' className='icon-item'>
+            <img src='/img/suiglobal.jpg' alt='' />
+          </a>
+        </div>
+        <div>
+          <a href='https://seapad.fund/' className='icon-item'>
+            <img src='/img/seapad.jpg' alt='' />
+          </a>
+        </div>
+        <div>
+          <a href='https://belaunch.io/' className='icon-item'>
+            <img src='/img/blaunch.jpg' alt='' />
+          </a>
+        </div>
       </div>
 
       <h3>Join the Amazing SuiGals Community Now!</h3>
