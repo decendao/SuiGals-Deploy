@@ -1,5 +1,5 @@
 import "./index.scss";
-import { useEffect, useLayoutEffect } from "react";
+import { useEffect } from "react";
 import { baseUrl } from "./constant";
 import $ from "jquery";
 type Props = {
@@ -13,14 +13,6 @@ export default function Header(props: Props) {
     return str ? str.slice(0, 4) + "..." + str.slice(-4) : "";
   }
 
-  useLayoutEffect(() => {
-    const element = document.getElementById(
-      "header-video"
-    )! as HTMLVideoElement;
-    element.oncanplay = () => {
-      $("#header-video").addClass("mask");
-    };
-  }, []);
   useEffect(() => {
     $(".menu-btn").click(function () {
       $(".top-nav").addClass("active");
@@ -30,6 +22,7 @@ export default function Header(props: Props) {
       $(".top-nav").removeClass("active");
     });
   }, []);
+
   return (
     <div id='header'>
       <div className='top-nav'>
@@ -65,26 +58,15 @@ export default function Header(props: Props) {
             <a className='icon-item' href='#' target='_blank'>
               <img src='/img/discord_1.png' alt='' />
             </a>
-
           </div>
-
-
         </div>
         <div className='menu-btn'>
           <img src='/img/menu.png' alt='' />
         </div>
       </div>
-      <div id='header-video'>
-        <img src={baseUrl} alt='' style={{ width: "100%", height: "auto" }} />
+      <div id='header_banner'>
+        <img src={baseUrl} alt='' />
       </div>
-      {/* <video
-        id='header-video'
-        src='/video/headervid1.mp4'
-        autoPlay
-        poster={baseUrl}
-        loop
-        muted
-      /> */}
       {/* home页底部链接 */}
       <div className='home_foot'>
         <div>
@@ -94,7 +76,10 @@ export default function Header(props: Props) {
         </div>
         <div>
           <a href='#'>
-            <img src='img/bluemove.png' alt='https://sui.bluemove.net/launchpad' />
+            <img
+              src='img/bluemove.png'
+              alt='https://sui.bluemove.net/launchpad'
+            />
           </a>
         </div>
         <div>
