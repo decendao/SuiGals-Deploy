@@ -70,26 +70,23 @@ export default function Header(props: Props) {
       {/* home页底部链接 */}
       <div className='home_foot'>
         <div>
-          <a href='#'>
-            <img src='img/suiart.jpg' alt='https://sui.art' />
+          <a href='https://sui.art'>
+            <img src='img/suiart.jpg' alt='' />
           </a>
         </div>
         <div>
-          <a href='#'>
-            <img
-              src='img/bluemove.png'
-              alt='https://sui.bluemove.net/launchpad'
-            />
+          <a href='https://sui.bluemove.net/launchpad'>
+            <img src='img/bluemove.png' alt='' />
           </a>
         </div>
         <div>
-          <a href='#'>
-            <img src='img/suigallery.jpg' alt='https://www.sui.gallery/' />
+          <a href='https://www.sui.gallery'>
+            <img src='img/suigallery.jpg' alt='' />
           </a>
         </div>
         <div>
-          <a href='#'>
-            <img src='img/clutchy.jpg' alt='https://clutchy.io/' />
+          <a href='https://clutchy.io'>
+            <img src='img/clutchy.jpg' alt='' />
           </a>
         </div>
       </div>
