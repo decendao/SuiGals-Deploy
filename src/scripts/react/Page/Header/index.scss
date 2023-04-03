@@ -85,25 +85,30 @@
     .home_foot {
       width: 75%;
       position: absolute;
-      bottom:16rem;
+      bottom:10rem;
       display: flex;
       justify-content: space-between;
+      .title {
+        width: 100%;
+          font-size: 3rem;
+          color: #fff;
+          text-align: center;
+          margin-top: 1.5rem;
+        }
       >div {
-        padding: 5px;
-        width: 10rem;
-        height: 10rem;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.8);
-        box-shadow: 0 12px 10px -10px rgba(0,0,0,0.3), 0 0 8px 0 rgba(0,0,0,0.13);
-
-        border: none;
+        text-align: center;
         a {
-          display: inline-block;
-          height: 100%;
-          width: 100%;
+            padding: 5px;
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 12px 10px -10px rgba(0,0,0,0.3), 0 0 8px 0 rgba(0,0,0,0.13);
+            border: none;
+            display: inline-block;
           img {
-          border-radius: 50%;
-          }
+            border-radius: 50%;
+            }
         }
       }
     }
@@ -278,16 +283,22 @@
        .home_foot {
         width: 75%;
         position: absolute;
-        bottom:30rem;
+        bottom:20rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        .title {
+            font-size: 6rem;
+            color: #fff;
+            text-align: center;
+            margin-top: 2rem,
+        }
       >div {
         width: 35rem;
         height: 35rem;
         border-radius: 50%;
         border: 1px solid #fff;
-        margin-bottom: 10rem;
+        margin-bottom: 16rem;
         a {
           display: inline-block;
           height: 100%;

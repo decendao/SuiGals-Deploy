@@ -73,21 +73,25 @@ export default function Header(props: Props) {
           <a href='https://sui.art'>
             <img src='img/suiart.jpg' alt='' />
           </a>
+          <h1 className='title'>sui.art</h1>
         </div>
         <div>
           <a href='https://sui.bluemove.net/launchpad'>
             <img src='img/bluemove.png' alt='' />
           </a>
+          <h1 className='title'>launchpad</h1>
         </div>
         <div>
           <a href='https://www.sui.gallery'>
             <img src='img/suigallery.jpg' alt='' />
           </a>
+          <h1 className='title'>gallery</h1>
         </div>
         <div>
           <a href='https://clutchy.io'>
             <img src='img/clutchy.jpg' alt='' />
           </a>
+          <h1 className='title'>clutchy</h1>
         </div>
       </div>
     </div>
