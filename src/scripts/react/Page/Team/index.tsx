@@ -16,7 +16,7 @@ export default function Team() {
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://twitter.com/buna_sui'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>
@@ -31,7 +31,7 @@ export default function Team() {
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://twitter.com/Suigals_boi'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>
@@ -46,7 +46,7 @@ export default function Team() {
             }}
           >
             <a
-              href='http://www.baidu.com'
+              href='https://twitter.com/evaaadyss'
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>

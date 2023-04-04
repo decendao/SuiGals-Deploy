@@ -22,10 +22,7 @@ export default function Footer() {
           <img src="/img/rb/discord_mini.png" alt=""/></a>
           <a href="#" target="_blank">
           <img src="/img/rb/ins_mini.png" alt=""/></a>
-          <a href="#" target="_blank">
-          <img src="/img/rb/tikok_mini.png" alt=""/></a>
-          <a href="#" target="_blank">
-          <img src="/img/rb/opensea_mini.png" alt=""/></a>
+       
         </p>
         <p>©Copyright Sui Global Foundation All rights reserved.</p>
         <p>The Face of Sui! </p>

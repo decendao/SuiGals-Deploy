@@ -55,9 +55,14 @@ export default function Header(props: Props) {
             <a className='icon-item' href='https://twitter.com/suigalsnft' target='_blank'>
               <img src='/img/twitter_1.png' alt='' />
             </a>
+
+
             <a className='icon-item' href='https://discord.gg/bAsGGa6pvs' target='_blank'>
               <img src='/img/discord_1.png' alt='' />
             </a>
+
+
+
           </div>
         </div>
         <div className='menu-btn'>
@@ -70,10 +75,10 @@ export default function Header(props: Props) {
       {/* home页底部链接 */}
       <div className='home_foot'>
         <div>
-          <a href='https://sui.art'>
-            <img src='img/suiart.jpg' alt='' />
+          <a href='https://www.maxi.to/'>
+            <img src='img/maxi.jpg' alt='' />
           </a>
-          <h1 className='title'>sui.art</h1>
+          <h1 className='title'>SuiMaxi</h1>
         </div>
         <div>
           <a href='https://sui.bluemove.net/launchpad'>
