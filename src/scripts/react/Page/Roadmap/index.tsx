@@ -43,7 +43,7 @@ export default function Roadmap() {
           <h2>
             - AIGC Music & MVs
             <br />
-            - Going Tiktok
+            - Going Tiktok Vtuber
             <br />- Genesis-Holders Giveaways & Drops
           </h2>
         </div>
