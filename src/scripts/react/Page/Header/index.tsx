@@ -87,10 +87,10 @@ export default function Header(props: Props) {
           <h1 className='title'>bluemove</h1>
         </div>
         <div>
-          <a href='https://www.sui.gallery'>
+          <a href='https://souffl3.com/'>
             <img src='img/suigallery.jpg' alt='' />
           </a>
-          <h1 className='title'>sui.gallery</h1>
+          <h1 className='title'>Souffl3</h1>
         </div>
         <div>
           <a href='https://clutchy.io'>
