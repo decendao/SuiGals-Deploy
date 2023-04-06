@@ -88,7 +88,7 @@ export default function Header(props: Props) {
         </div>
         <div>
           <a href='https://souffl3.com/'>
-            <img src='img/suigallery.jpg' alt='' />
+            <img src='img/souffl.jpg' alt='' />
           </a>
           <h1 className='title'>Souffl3</h1>
         </div>
