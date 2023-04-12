@@ -10,7 +10,7 @@
 
 ### Project Website
 
-https://suigals.vercel.app/
+https://suigals.com
 
 https://twitter.com/suigalsnft
 
