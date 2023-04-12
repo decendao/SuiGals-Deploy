@@ -99,7 +99,7 @@ export default function Team() {
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>
-          <h1>Serena</h1>
+          <h1>Amber</h1>
           <h2>Advisor</h2>
         </div>
         <div className='item'>
@@ -129,7 +129,7 @@ export default function Team() {
               style={{ display: "inline-block", width: "100%", height: "100%" }}
             ></a>
           </div>
-          <h1>Christy</h1>
+          <h1>Nina</h1>
           <h2>Community Mod</h2>
         </div>
       </div>
