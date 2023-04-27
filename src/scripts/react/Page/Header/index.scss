@@ -285,20 +285,24 @@
         position: absolute;
         bottom:20rem;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items:center;
         .title {
             font-size: 6rem;
             color: #fff;
             text-align: center;
             margin-top: 2rem,
         }
-      >div {
-        width: 35rem;
-        height: 35rem;
-        border-radius: 50%;
-        border: 1px solid #fff;
-        margin-bottom: 16rem;
+        >div{
+          display: none;
+        }
+        >div:nth-child(3) {
+          display: block;
+          width: 70rem;
+          height: 70rem;
+          border-radius: 50%;
+          border: 1px solid #fff;
+          margin-bottom: 16rem;
         a {
           display: inline-block;
           height: 100%;
