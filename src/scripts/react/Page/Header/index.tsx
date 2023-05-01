@@ -52,17 +52,21 @@ export default function Header(props: Props) {
           </div>
 
           <div className='icon-list'>
-            <a className='icon-item' href='https://twitter.com/suigalsnft' target='_blank'>
+            <a
+              className='icon-item'
+              href='https://twitter.com/suigalsnft'
+              target='_blank'
+            >
               <img src='/img/twitter_1.png' alt='' />
             </a>
 
-
-            <a className='icon-item' href='https://discord.gg/bAsGGa6pvs' target='_blank'>
+            <a
+              className='icon-item'
+              href='https://discord.gg/bAsGGa6pvs'
+              target='_blank'
+            >
               <img src='/img/discord_1.png' alt='' />
             </a>
-
-
-
           </div>
         </div>
         <div className='menu-btn'>
@@ -80,12 +84,19 @@ export default function Header(props: Props) {
           </a>
           <h1 className='title'>SuiMaxi</h1>
         </div>
-        <div>
+        {/* pc端主按钮 */}
+        <a
+          href=''
+          className='title main_btn'
+          data-title='Mint Now on Sui Mainnet'
+        ></a>
+        {/* <h1 className='title'>bluemove</h1> */}
+        {/* <div>
           <a href='https://sui.bluemove.net/launchpad'>
             <img src='img/bluemove.png' alt='' />
           </a>
           <h1 className='title'>bluemove</h1>
-        </div>
+        </div> */}
         <div>
           <a href='https://souffl3.com/'>
             <img src='img/souffl.jpg' alt='' />
