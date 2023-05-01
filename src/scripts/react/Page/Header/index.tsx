@@ -78,36 +78,18 @@ export default function Header(props: Props) {
       </div>
       {/* home页底部链接 */}
       <div className='home_foot'>
-        <div>
-          <a href='https://www.maxi.to/'>
-            <img src='img/maxi.jpg' alt='' />
-          </a>
-          <h1 className='title'>SuiMaxi</h1>
-        </div>
         {/* pc端主按钮 */}
-        <a
-          href=''
-          className='title main_btn'
-          data-title='Mint Now on Sui Mainnet'
-        ></a>
-        {/* <h1 className='title'>bluemove</h1> */}
-        {/* <div>
-          <a href='https://sui.bluemove.net/launchpad'>
-            <img src='img/bluemove.png' alt='' />
-          </a>
-          <h1 className='title'>bluemove</h1>
-        </div> */}
-        <div>
+        <a href='' className='main_btn'>
+          <button className='custom-btn btn-6'>
+            <span>Mint Now on Sui Mainnet</span>
+          </button>
+        </a>
+
+        <div className='phone_btn'>
           <a href='https://souffl3.com/'>
             <img src='img/souffl.jpg' alt='' />
           </a>
           <h1 className='title'>Souffl3</h1>
-        </div>
-        <div>
-          <a href='https://clutchy.io'>
-            <img src='img/clutchy.jpg' alt='' />
-          </a>
-          <h1 className='title'>clutchy</h1>
         </div>
       </div>
     </div>

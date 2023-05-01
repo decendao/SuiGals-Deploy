@@ -79,57 +79,103 @@
         }
       }
     }
+      .phone_btn {
+        display: none;
+      }
+      .custom-btn {
+        display: flex;
+        align-items:center;
+        width: 100%;
+        height: 12rem;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+	}
+  .btn-6 {
+    background: rgb(247,150,192);
+    background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+	.btn-6 span {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	}
+	.btn-6:before,
+	.btn-6:after {
+	  position: absolute;
+	  content: "";
+	  height: 0%;
+	  width: 1px;
+	 box-shadow:
+	   -1px -1px 20px 0px rgba(255,255,255,1),
+	   -4px -4px 5px 0px rgba(255,255,255,1),
+	   7px 7px 20px 0px rgba(0,0,0,.4),
+	   4px 4px 5px 0px rgba(0,0,0,.3);
+	}
+	.btn-6:before {
+	  right: 0;
+	  top: 0;
+	  transition: all 500ms ease;
+	}
+	.btn-6:after {
+	  left: 0;
+	  bottom: 0;
+	  transition: all 500ms ease;
+	}
+	.btn-6 span:before,
+	.btn-6 span:after {
+	  position: absolute;
+	  content: "";
+	  box-shadow:
+	   -1px -1px 20px 0px rgba(255,255,255,1),
+	   -4px -4px 5px 0px rgba(255,255,255,1),
+	   7px 7px 20px 0px rgba(0,0,0,.4),
+	   4px 4px 5px 0px rgba(0,0,0,.3);
+	}
+	.btn-6 span:before {
+	  left: 0;
+	  top: 0;
+	  width: 0%;
+	  height: .5px;
+	  transition: all 500ms ease;
+	}
+	.btn-6 span:after {
+	  right: 0;
+	  bottom: 0;
+	  width: 0%;
+	  height: .5px;
+	  transition: all 500ms ease;
+	}
+	.btn-6 span:hover:before {
+	  width: 100%;
+	}
+	.btn-6 span:hover:after {
+	  width: 100%;
+	}
     .main_btn {
-      margin: 0 8rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      text-decoration: none;
-      text-align: center;
-      cursor: pointer;
-      user-select: none;
+      width: 100%;
       color: white;
       height: 12rem;
       margin-top: .5rem!important;
-
-      &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background: linear-gradient(135deg, #6e8efb, #a777e3);
-        border-radius: 4px;
-        transition: box-shadow .5s ease, transform .2s ease;
-        will-change: transform;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-        transform:
-          translateY(var(--ty, 0))
-          rotateX(var(--rx, 0))
-          rotateY(var(--ry, 0))
-          translateZ(var(--tz, -12px));
-      }
-
-      &:hover::before {
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
-      }
-
-      &::after {
-        position: relative;
-        display: inline-block;
-        content: attr(data-title);
-        transition: transform .2s ease;
-        font-weight: bold;
-        letter-spacing: .01em;
-        will-change: transform;
-        transform:
-          translateY(var(--ty, 0))
-          rotateX(var(--rx, 0))
-          rotateY(var(--ry, 0));
-      }
-
     }
     .menu-btn {
       display: none;
@@ -351,10 +397,8 @@
         .main_btn {
           display: none;
         }
-        >div{
-          display: none;
-        }
-        >div:nth-child(3) {
+
+       .phone_btn {
           display: block;
           width: 70rem;
           height: 70rem;
